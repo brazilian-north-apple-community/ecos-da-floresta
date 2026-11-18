@@ -1,0 +1,207 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08EF6E6E1000000000000001 /* EcosDaFlorestaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EF6E6E1000000000000003 /* EcosDaFlorestaApp.swift */; };
+		08EF6E6E1000000000000002 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EF6E6E1000000000000004 /* GameScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08EF6E6E1000000000000003 /* EcosDaFlorestaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcosDaFlorestaApp.swift; sourceTree = "<group>"; };
+		08EF6E6E1000000000000004 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		08EF6E6E1000000000000005 /* EcosDaFloresta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcosDaFloresta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08EF6E6E1000000000000006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08EF6E6E1000000000000007 = {
+			isa = PBXGroup;
+			children = (
+				08EF6E6E1000000000000008 /* EcosDaFloresta */,
+				08EF6E6E1000000000000009 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08EF6E6E1000000000000008 /* EcosDaFloresta */ = {
+			isa = PBXGroup;
+			children = (
+				08EF6E6E1000000000000003 /* EcosDaFlorestaApp.swift */,
+				08EF6E6E1000000000000004 /* GameScene.swift */,
+			);
+			path = EcosDaFloresta;
+			sourceTree = "<group>";
+		};
+		08EF6E6E1000000000000009 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08EF6E6E1000000000000005 /* EcosDaFloresta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08EF6E6E100000000000000A /* EcosDaFloresta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08EF6E6E1000000000000013 /* Build configuration list for PBXNativeTarget "EcosDaFloresta" */;
+			buildPhases = (
+				08EF6E6E100000000000000D /* Sources */,
+				08EF6E6E1000000000000006 /* Frameworks */,
+				08EF6E6E100000000000000C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EcosDaFloresta;
+			productName = EcosDaFloresta;
+			productReference = 08EF6E6E1000000000000005 /* EcosDaFloresta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08EF6E6E100000000000000B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 08EF6E6E1000000000000012 /* Build configuration list for PBXProject "EcosDaFloresta" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08EF6E6E1000000000000007;
+			productRefGroup = 08EF6E6E1000000000000009 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08EF6E6E100000000000000A /* EcosDaFloresta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08EF6E6E100000000000000C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08EF6E6E100000000000000D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08EF6E6E1000000000000001 /* EcosDaFlorestaApp.swift in Sources */,
+				08EF6E6E1000000000000002 /* GameScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		08EF6E6E100000000000000E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08EF6E6E100000000000000F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		08EF6E6E1000000000000010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ecos da Floresta";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.brazilian-north-apple-community.ecos-da-floresta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08EF6E6E1000000000000011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ecos da Floresta";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.brazilian-north-apple-community.ecos-da-floresta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08EF6E6E1000000000000012 /* Build configuration list for PBXProject "EcosDaFloresta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08EF6E6E100000000000000E /* Debug */,
+				08EF6E6E100000000000000F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08EF6E6E1000000000000013 /* Build configuration list for PBXNativeTarget "EcosDaFloresta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08EF6E6E1000000000000010 /* Debug */,
+				08EF6E6E1000000000000011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08EF6E6E100000000000000B /* Project object */;
+}
