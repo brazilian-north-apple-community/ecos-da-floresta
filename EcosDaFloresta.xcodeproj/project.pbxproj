@@ -9,12 +9,30 @@
 /* Begin PBXBuildFile section */
 		08EF6E6E1000000000000001 /* EcosDaFlorestaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EF6E6E1000000000000003 /* EcosDaFlorestaApp.swift */; };
 		08EF6E6E1000000000000002 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EF6E6E1000000000000004 /* GameScene.swift */; };
+		B5C759EB30AEC95E005DEF7F /* SpatialAudioSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C759E030AEC95E005DEF7F /* SpatialAudioSystem.swift */; };
+		B5C759EC30AEC95E005DEF7F /* AudioSourceComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C759DD30AEC95E005DEF7F /* AudioSourceComponent.swift */; };
+		B5C759ED30AEC95E005DEF7F /* ListenerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C759DE30AEC95E005DEF7F /* ListenerComponent.swift */; };
+		B5C759EE30AEC95E005DEF7F /* cobra.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5C759E430AEC95E005DEF7F /* cobra.mp3 */; };
+		B5C759EF30AEC95E005DEF7F /* agua_caverna.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5C759E330AEC95E005DEF7F /* agua_caverna.mp3 */; };
+		B5C759F030AEC95E005DEF7F /* quebrando_galho.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5C759E730AEC95E005DEF7F /* quebrando_galho.mp3 */; };
+		B5C759F130AEC95E005DEF7F /* sapo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5C759E830AEC95E005DEF7F /* sapo.mp3 */; };
+		B5C759F230AEC95E005DEF7F /* passaro_dnv.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5C759E530AEC95E005DEF7F /* passaro_dnv.mp3 */; };
+		B5C759F330AEC95E005DEF7F /* passaro_longe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5C759E630AEC95E005DEF7F /* passaro_longe.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		08EF6E6E1000000000000003 /* EcosDaFlorestaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcosDaFlorestaApp.swift; sourceTree = "<group>"; };
 		08EF6E6E1000000000000004 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		08EF6E6E1000000000000005 /* EcosDaFloresta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcosDaFloresta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C759DD30AEC95E005DEF7F /* AudioSourceComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSourceComponent.swift; sourceTree = "<group>"; };
+		B5C759DE30AEC95E005DEF7F /* ListenerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenerComponent.swift; sourceTree = "<group>"; };
+		B5C759E030AEC95E005DEF7F /* SpatialAudioSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialAudioSystem.swift; sourceTree = "<group>"; };
+		B5C759E330AEC95E005DEF7F /* agua_caverna.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = agua_caverna.mp3; sourceTree = "<group>"; };
+		B5C759E430AEC95E005DEF7F /* cobra.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cobra.mp3; sourceTree = "<group>"; };
+		B5C759E530AEC95E005DEF7F /* passaro_dnv.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = passaro_dnv.mp3; sourceTree = "<group>"; };
+		B5C759E630AEC95E005DEF7F /* passaro_longe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = passaro_longe.mp3; sourceTree = "<group>"; };
+		B5C759E730AEC95E005DEF7F /* quebrando_galho.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quebrando_galho.mp3; sourceTree = "<group>"; };
+		B5C759E830AEC95E005DEF7F /* sapo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sapo.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +57,8 @@
 		08EF6E6E1000000000000008 /* EcosDaFloresta */ = {
 			isa = PBXGroup;
 			children = (
+				B5C759E230AEC95E005DEF7F /* ECS */,
+				B5C759EA30AEC95E005DEF7F /* Resources */,
 				08EF6E6E1000000000000003 /* EcosDaFlorestaApp.swift */,
 				08EF6E6E1000000000000004 /* GameScene.swift */,
 			);
@@ -51,6 +71,53 @@
 				08EF6E6E1000000000000005 /* EcosDaFloresta.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B5C759DF30AEC95E005DEF7F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B5C759DD30AEC95E005DEF7F /* AudioSourceComponent.swift */,
+				B5C759DE30AEC95E005DEF7F /* ListenerComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B5C759E130AEC95E005DEF7F /* Systems */ = {
+			isa = PBXGroup;
+			children = (
+				B5C759E030AEC95E005DEF7F /* SpatialAudioSystem.swift */,
+			);
+			path = Systems;
+			sourceTree = "<group>";
+		};
+		B5C759E230AEC95E005DEF7F /* ECS */ = {
+			isa = PBXGroup;
+			children = (
+				B5C759DF30AEC95E005DEF7F /* Components */,
+				B5C759E130AEC95E005DEF7F /* Systems */,
+			);
+			path = ECS;
+			sourceTree = "<group>";
+		};
+		B5C759E930AEC95E005DEF7F /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				B5C759E330AEC95E005DEF7F /* agua_caverna.mp3 */,
+				B5C759E430AEC95E005DEF7F /* cobra.mp3 */,
+				B5C759E530AEC95E005DEF7F /* passaro_dnv.mp3 */,
+				B5C759E630AEC95E005DEF7F /* passaro_longe.mp3 */,
+				B5C759E730AEC95E005DEF7F /* quebrando_galho.mp3 */,
+				B5C759E830AEC95E005DEF7F /* sapo.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		B5C759EA30AEC95E005DEF7F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B5C759E930AEC95E005DEF7F /* Audio */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +145,8 @@
 /* Begin PBXProject section */
 		08EF6E6E100000000000000B /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = 08EF6E6E1000000000000012 /* Build configuration list for PBXProject "EcosDaFloresta" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
@@ -100,6 +169,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C759EE30AEC95E005DEF7F /* cobra.mp3 in Resources */,
+				B5C759EF30AEC95E005DEF7F /* agua_caverna.mp3 in Resources */,
+				B5C759F030AEC95E005DEF7F /* quebrando_galho.mp3 in Resources */,
+				B5C759F130AEC95E005DEF7F /* sapo.mp3 in Resources */,
+				B5C759F230AEC95E005DEF7F /* passaro_dnv.mp3 in Resources */,
+				B5C759F330AEC95E005DEF7F /* passaro_longe.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +186,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				08EF6E6E1000000000000001 /* EcosDaFlorestaApp.swift in Sources */,
+				B5C759EB30AEC95E005DEF7F /* SpatialAudioSystem.swift in Sources */,
+				B5C759EC30AEC95E005DEF7F /* AudioSourceComponent.swift in Sources */,
+				B5C759ED30AEC95E005DEF7F /* ListenerComponent.swift in Sources */,
 				08EF6E6E1000000000000002 /* GameScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,8 +229,8 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Ecos da Floresta";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.brazilian-north-apple-community.ecos-da-floresta";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -170,8 +248,8 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Ecos da Floresta";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.brazilian-north-apple-community.ecos-da-floresta";
 				PRODUCT_NAME = "$(TARGET_NAME)";
